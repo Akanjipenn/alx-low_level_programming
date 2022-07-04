@@ -14,6 +14,6 @@ while (d <= '9')
 putchar(d);
 d++;
 }
-putchar(10)
+putchar(10);
 return (0);
 }
