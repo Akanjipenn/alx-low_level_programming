@@ -11,5 +11,6 @@ for (ch = 97; ch <= 122; ch++)
 {
 putchar (ch);
 }
+put(10);
 return (0);
 }
