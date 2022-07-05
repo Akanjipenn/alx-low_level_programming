@@ -1,17 +1,19 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * A program that prints the alphabet in lowercase
- * Followed by a new line
+ *main - prints the alphabet in lowercase, followed by a new line
  *
- * Return 0
+ *Return: Always 0
  **/
 int main(void)
 {
-int d;
-for (d = 97; d <= 122; d++)
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(d);
-}	
+if (ch != 'q' && ch != 'e')
+putchar(ch);
+}
 putchar(10);
 return (0);
 }
