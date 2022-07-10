@@ -1,11 +1,11 @@
-#include "main.h"
+#includie "main.h"
 /**
  * main ->Print _putchar
  * Return always 0
 */
 int main(void)	
 {
-	putchar('_');
+	putchar('-');
 	putchar('p');
 	putchar('u');
 	putchar('t');
