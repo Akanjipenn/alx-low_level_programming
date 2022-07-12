@@ -1,22 +1,16 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
-* print_triangle - prints a triangle
-* @size: takes in a integer for size of triangle
+* mul - function that multiplies two integers
+* @a: First integer
+* @b: Second integer
+* Return: mul.
 */
-void print_triangle(int size)
+int mul(int a, int b)
 {
-	int row, column, x;
+	int x;
 
-	if (size <= 0)
-		_putchar('\n');
-	for (row = 0; row < size; row++)
-	{
-		for (column = size - row; column > 1; column--)
-			_putchar(' ');
-		for (x = row + column; x >= 1; x--)
-			_putchar('#');
-		_putchar('\n');
-	}
+	x = a * b;
+return (x);
 }
-Footer
-
