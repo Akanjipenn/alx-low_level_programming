@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
 * substring_match - check if a substring after wildcard matches s1
