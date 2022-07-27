@@ -1,2 +1,2 @@
-C programming session
-Another c session
+C programming session!!
+C is fun, I'm about to kickstart.
